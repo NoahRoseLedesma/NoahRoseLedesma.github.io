@@ -1,6 +1,20 @@
 <html>
+<head>
+<title>Noah Rose Ledesma</title>
+<script>
+splash = ["You win!", "Haha isn't this fun!", "I don't think you can win anymore", "Are you happy yet?", "I don't think you understand.", "This is starting to hurt", "Really?", ".", "..", "...", "....", "!!!", "You're very persistent you know", "Really, chill out.", "Stop", "I don't like this anymore", "Why are you doing this to me", "I hate you.", "I thought we could have a little bit of fun.", "Guess not.", "Guess you're just an evil person.", "Bye"];
+point = 0;
+window.onload = function () {
+  document.getElementById("Button").onclick = function() {
+    document.getElementById("Button").innerHTML = splash[point];
+    point++;
+  };
+};
+</script>
+</head>
 <body>
 <h1>Noah Rose Ledesma</h1>
 <p> I make things, for example <a href="https://github.com/NoahRoseLedesma/DeadReckoning">this</a>, <a href="https://github.com/NoahRoseLedesma/NodeFuck">this</a>, and a bundle of things lost in the abyss of my poor hard drive.</p>
+<button id="Button">Click me to make your dreams come true</button>
 <body>
 </html>
